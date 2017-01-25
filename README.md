@@ -1,2 +1,2 @@
 # SunnyWeather
-![Kiku](images/Kiku.jpg)
+![Kiku](SunnyWeather/SunnyWeather/images/img1.png)

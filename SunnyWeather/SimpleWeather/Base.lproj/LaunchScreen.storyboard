@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clear" translatesAutoresizingMaskIntoConstraints="NO" id="t6d-uF-198">
+                                <rect key="frame" x="-39" y="-12" width="499" height="266"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="499" id="ebD-O1-Rbf"/>
+                                    <constraint firstAttribute="height" constant="266" id="xsn-ss-FJp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="avg-ER-T9D">
+                                <rect key="frame" x="137" y="146" width="278" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="yG5-dV-vJj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="W8g-BI-U1M">
+                                <rect key="frame" x="-96" y="-4" width="213" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="v02-WJ-QSk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zu-eI-6hA">
+                                <rect key="frame" x="12.5" y="394" width="295" height="55"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b37-Jj-cBK">
+                                <rect key="frame" x="20" y="457" width="265" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BwK-IF-hdz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31764705882352939" green="0.64313725490196072" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W8g-BI-U1M" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-96" id="2hz-mJ-fwm"/>
+                            <constraint firstAttribute="trailing" secondItem="W8g-BI-U1M" secondAttribute="trailing" constant="203" id="9ZO-Oo-jC9"/>
+                            <constraint firstAttribute="trailing" secondItem="b37-Jj-cBK" secondAttribute="trailing" constant="35" id="J4q-Of-Cgz"/>
+                            <constraint firstItem="t6d-uF-198" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-12" id="JwE-Fe-Qc3"/>
+                            <constraint firstItem="b37-Jj-cBK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="PFe-jf-DmK"/>
+                            <constraint firstItem="6Zu-eI-6hA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="181.5" id="Wxu-7x-tWI"/>
+                            <constraint firstItem="avg-ER-T9D" firstAttribute="top" secondItem="W8g-BI-U1M" secondAttribute="bottom" constant="8" id="Xiy-Q8-4P6"/>
+                            <constraint firstItem="W8g-BI-U1M" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-4" id="aCW-6E-gH2"/>
+                            <constraint firstItem="avg-ER-T9D" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="137" id="cza-bV-dBT"/>
+                            <constraint firstAttribute="trailing" secondItem="avg-ER-T9D" secondAttribute="trailing" constant="-95" id="daa-OF-2pO"/>
+                            <constraint firstAttribute="trailing" secondItem="t6d-uF-198" secondAttribute="trailing" constant="-140" id="e9N-Cs-v5h"/>
+                            <constraint firstItem="b37-Jj-cBK" firstAttribute="top" secondItem="6Zu-eI-6hA" secondAttribute="bottom" constant="8" symbolic="YES" id="fjW-Ml-G7J"/>
+                            <constraint firstItem="6Zu-eI-6hA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n3M-I3-SqW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clear" width="107" height="107"/>
+        <image name="Clouds" width="92" height="68"/>
+    </resources>
+</document>
